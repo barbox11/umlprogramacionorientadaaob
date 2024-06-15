@@ -8,7 +8,7 @@ class Carro{
     mostrardetalle(){
         console.log (`marca ${this.marca}, modelo ${this.modelo}, estado: ${this.estado}`);
     }
-    cambiarestado(){
+    cambiarestado(nuevoestado){
         this.estado = nuevoestado;
     }
 }
