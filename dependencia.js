@@ -14,7 +14,7 @@ class Carro{
 }
 class serviciomecanico{
     reparar(carro){
-        console.log(`reparando el ${this.carro.marca} ${this.carro.modelo}`);
+        console.log(`reparando el ${carro.marca} ${carro.modelo}`);
         carro.cambiarestado('reparar');
         console.log(`reparando el ${carro.marca} ${carro.modelo} ha sido revisado y esta ${carro.estado}`);
     }
